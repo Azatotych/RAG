@@ -1,0 +1,161 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f6f6f8;
+  color: #1f2933;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.encoder-select {
+  display: flex;
+  gap: 16px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.column h2 {
+  margin-top: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.storage-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.storage-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px 0;
+}
+
+.storage-list .meta {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.drop-zone {
+  border: 2px dashed #cbd5e1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.form-row input[type='number'],
+.form-row input[type='file'],
+textarea {
+  flex: 1;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.chunk-list {
+  max-height: 300px;
+  overflow: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 8px;
+  background: #f9fafb;
+}
+
+.chunk-item {
+  margin-bottom: 12px;
+}
+
+.chunk-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  margin: 0;
+}
+
+.results .result-item {
+  margin-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 8px;
+}
+
+.result-header {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 16px;
+  padding: 12px;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.status {
+  margin-top: 8px;
+  color: #334155;
+}
