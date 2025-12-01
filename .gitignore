@@ -1,0 +1,20 @@
+# venv
+rag_env/
+.env/
+
+# модели
+models/
+
+# питоновский мусор
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# прочее
+.DS_Store

@@ -1,0 +1,15 @@
+# ядро для эмбеддингов и работы с моделями
+sentence-transformers
+transformers
+torch
+
+# работа с русским текстом (разделение на предложения)
+razdel
+
+# скачивание моделей с Hugging Face
+huggingface_hub
+
+# для бэкенда (дальше будем писать API /upload и /search)
+fastapi
+uvicorn[standard]
+python-multipart
